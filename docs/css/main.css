@@ -1,18 +1,14 @@
 body {
-  background-color: #ffffff;
-  font-size: 14px;
-  font-family: "Helvetica Neue", Helvetica;
+  background-color: #FDF2E9;
 }
 
 #comment  {
-  padding: 5px;
+  height: 1100px;
+  position:relative;
   font-size: 30px;
   font-family: Verdana, Helvetica, sans-serif;
-  font-weight: bold;
-  width: 1200px;
+  padding: 1%;
   border: 2px solid blue;
   color: blue;
-  top: 0px; 
-  left: 0px; 
   margin-bottom: 30px;
 }
