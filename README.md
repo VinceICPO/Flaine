@@ -1,5 +1,8 @@
 # Flaine
 This is just a webpage with a collection of webcams located in Flaine, Haute Savoie, France.  
+The page is here: [Webcams](https://vinceicpo.github.io/Flaine/).  
+_However, please understand most of the cams (especially the ones in Flaine) are turned off outside the winter or summer seasons.  
+The ones in Les Carroz such as the "Alpage de l'Airon" are active most of the year. This is useful if you are plannnig to hike and lunch there!_
 
 In winter, the skiing domain covers 5 stations and 139 skiing tracks, it is called "Grand Massif".  
 ![col_flaine](https://user-images.githubusercontent.com/29441651/161625197-a713e0b9-39f3-4e18-9c90-f7c1f79fa0a9.png)
@@ -9,4 +12,5 @@ In winter, the skiing domain covers 5 stations and 139 skiing tracks, it is call
 ![col_lescarroz](https://user-images.githubusercontent.com/29441651/161623074-744b0b12-7799-483b-8f3c-706f1ef55090.png)  
 [>>Winter skiing map<<](https://grandmassif.2dmap.skitudeservices.com)
 
-In summer, the station has one of the highest 18-holes golf course in Europe (1850m) and offers kilometers of trails with an incredible wildlife. One of the best places to meet Ibexes and Alpine Chamois.
+In summer, the station has one of the highest 18-holes golf course in Europe (1850m), it is located at the Col de pierre carrée, route de Flaine.  
+Flaine and Les Carroz offer kilometers of trails with an incredible wildlife. One of the best places to meet ibexes and Alpine chamois.
