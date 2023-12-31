@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcams autour de Flaine</title>
+    <style>
+        /* Add your custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        iframe {
+            margin: 10px;
+            frameborder="0";
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 1000px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Webcams autour de Flaine</h1>
+
+<div id="webcam-container"></div>
+
+<script>
+    // Fetch webcam URLs and comments from the text file
+    fetch('webcams.txt')
+        .then(response => response.text())
+        .then(data => {
+            // Split the text file content into lines
+            const lines = data.split('\n');
+
+            // Display webcams on the webpage
+            const container = document.getElementById('webcam-container');
+            lines.forEach(line => {
+                // Split each line into URL and comment
+                const [url, comment] = line.split(';');
+
+                // Create an iframe for each webcam
+                const iframe = document.createElement('iframe');
+                iframe.src = url;
+                iframe.title = comment;
+
+                // Append the iframe to the container
+                container.appendChild(iframe);
+            });
+        })
+        .catch(error => console.error('Error fetching webcams:', error));
+</script>
+
+</body>
+</html>
