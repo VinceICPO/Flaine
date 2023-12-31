@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>Webcams autour de Flaine</title>
     <style>
         /* Add your custom styles here */
@@ -15,9 +14,13 @@
         iframe {
             margin: 10px;
             frameborder="0";
+            allowfullscreen="true";
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            height: 1000px;
+			width: 670px;
+			height: 400px;
+            loading="lazy";
+            data-rocket-lazyload="fitvidscompatible";
+    </iframe>
         }
 
     </style>
@@ -45,7 +48,16 @@
                 // Create an iframe for each webcam
                 const iframe = document.createElement('iframe');
                 iframe.src = url;
-                iframe.title = comment;
+                iframe.title = comment;  
+					var b=document.getElementsByTagName('html')[0],
+						ww = window.innerWidth || document.documentElement.clientWidth || b.clientWidth,
+						wh = window.innerHeight || document.documentElement.clientHeight || b.clientHeight,
+						wPercent = (ww - 400) / 3440,
+						hPercent = (wh - 225) / 1935,
+						size = 8 + (20 * Math.min(wPercent, hPercent));
+					b.style.fontSize = size + 'px';
+
+					(window.self != window.top) && (b.className += " in-frame");
 
                 // Append the iframe to the container
                 container.appendChild(iframe);
