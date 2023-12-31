@@ -1,3 +1,8 @@
+https://www.skaping.com/flaine/desert-blanc;Desert Blanc
+https://www.skaping.com/flaine/veret;Flaine Veret
+https://app.webcam-hd.com/grand-massif/grand-massif_flaine-grandes-platieres;Platières
+https://app.webcam-hd.com/grand-massif/aup-de-veran;Aup de Veran
+https://app.webcam-hd.com/grand-massif/grand-massif_flaine-1600;Flaine 1600m
 https://srv02.trinum.com/ibox/ftpcam/mega_grand-massif_flaine-grandes-platieres.jpg;Vue des Grandes Platières sur le Mont Blanc (2500m)
 https://www.trinum.com/ibox/grand-massif/images/flaine-1600/grand-massif_flaine-16001.jpg;Secteur Desert Blanc
 https://www.trinum.com/ibox/grand-massif/images/flaine-1600/grand-massif_flaine-16002.jpg;Secteur Platières
